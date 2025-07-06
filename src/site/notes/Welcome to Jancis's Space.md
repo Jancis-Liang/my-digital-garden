@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Welcome to Jancis's Space/","noteIcon":""}
+{"dg-publish":true,"permalink":"/Welcome to Jancis's Space/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
 这是我的第一篇数字花园笔记。欢迎来到Jancis的数字花园。
