@@ -31,6 +31,7 @@
 
 
 该代码可以罗列出每一篇笔记中的所有属性，方便新入手时直观理解。
+![The gardener's workbench/Pasted image 20250706231807.png](/img/user/The%20gardener's%20workbench/Pasted%20image%2020250706231807.png)
 
 # 属性
 ## 属性的数据类型
