@@ -6,31 +6,24 @@
 
 # 初次尝试
 
-| File                                                                   | 创建日期                     |
-| ---------------------------------------------------------------------- | ------------------------ |
-| [[test\|test]]                                                      | 10:40 PM - July 06, 2025 |
-| [[AI/Prompts\|Prompts]]                                             | 8:18 PM - July 06, 2025  |
-| [[AI/AI音乐\|AI音乐]]                                                   | 8:17 PM - July 06, 2025  |
-| [[The gardener's workbench/Obsidian笔记增加挂件美化\|Obsidian笔记增加挂件美化]]     | 6:08 PM - July 06, 2025  |
-| [[The gardener's workbench/Dataview Plugin\|Dataview Plugin]]       | 5:00 PM - July 06, 2025  |
-| [[AI/Stable diffusion/Stable diffusion原理解析\|Stable diffusion原理解析]]  | 4:36 PM - July 06, 2025  |
-| [[后端/Python\|Python]]                                               | 1:09 PM - July 06, 2025  |
-| [[后端/后端\|后端]]                                                       | 1:09 PM - July 06, 2025  |
-| [[The gardener's workbench/Digital Garden插件应用\|Digital Garden插件应用]] | 12:59 PM - July 06, 2025 |
-| [[AI/AI视频\|AI视频]]                                                   | 12:51 PM - July 06, 2025 |
-| [[AI/大语言模型\|大语言模型]]                                                 | 12:50 PM - July 06, 2025 |
-| [[投资理财/投资理财\|投资理财]]                                                 | 12:33 PM - July 06, 2025 |
-| [[心理学/心理学\|心理学]]                                                    | 12:32 PM - July 06, 2025 |
-| [[神秘学/神秘学\|神秘学]]                                                    | 12:32 PM - July 06, 2025 |
-| [[读书笔记/哲学思考\|哲学思考]]                                                 | 12:32 PM - July 06, 2025 |
-| [[读书笔记/读书笔记\|读书笔记]]                                                 | 12:32 PM - July 06, 2025 |
-| [[AI/AIGC\|AIGC]]                                                   | 12:06 PM - July 06, 2025 |
-| [[Welcome to Jancis's Space\|Welcome to Jancis's Space]]            | 11:57 AM - July 06, 2025 |
-
-{ .block-language-dataview}
-
-
 该代码可以罗列出每一篇笔记中的所有属性，方便新入手时直观理解。
+
+```code
+TABLE this
+WHERE file = this.file
+```
+
+
+列出最近三天创建的文档
+
+```code
+Table file.ctime as "创建日期"
+Where date(today) - file.ctime <= dur(3 day)
+Sort file.ctime desc
+```
+
+
+
 
 
 # 属性
