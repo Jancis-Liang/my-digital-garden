@@ -58,6 +58,13 @@
 	- 分数生成模型和扩散概率模型被连接到一个统一的框架中
 	
 ### 高效采样
+- 2020年10月，DDIM被提出，弃用马尔科夫链，采样速度提升50倍，反向降噪转变为确定性过程，首次拥有一致性
+- 2021年2月，OpenAI提出improved-diffusion，生成速度和质量有了比较大的飞跃。
+
+### 引导扩散
+- 2021年5月，OpenAI发布[《diffusionmodel beats GANs on image synthesis》](https://arxiv.org/pdf/2105.05233)
+- 
+
 ### 微调
 
 ## 辅线
