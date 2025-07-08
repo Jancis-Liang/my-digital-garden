@@ -3,7 +3,9 @@
 ---
 
 
-https://widget.pkmer.cn/free/ColorfulClock?user=c75178a3-2d5a-4858-bd26-d2f29cc4111b&font-color=%234f46e5&ring-color-1=%23e13e78&ring-color-2=%23e79742&ring-color-3=%234483ec&ring-color-4=%238f30eb&lang=en
+
+<div style=" width: 100%; height:220;overflow: hidden; "><iframe src="https://widget.pkmer.cn/free/ColorfulClock?user=c75178a3-2d5a-4858-bd26-d2f29cc4111b&font-color=%234f46e5&ring-color-1=%23e13e78&ring-color-2=%23e79742&ring-color-3=%234483ec&ring-color-4=%238f30eb&lang=en" allow="fullscreen" style=" height: 100%; width: 100%;"></iframe></div>
+
 
 这是我的第一篇数字花园笔记。欢迎来到Jancis的数字花园。
 
