@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/0 Introduction/Welcome to Jancis's Space/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
+
+https://widget.pkmer.cn/free/ColorfulClock?user=c75178a3-2d5a-4858-bd26-d2f29cc4111b&font-color=%234f46e5&ring-color-1=%23e13e78&ring-color-2=%23e79742&ring-color-3=%234483ec&ring-color-4=%238f30eb&lang=en
+
 这是我的第一篇数字花园笔记。欢迎来到Jancis的数字花园。
 
 为了呵护好这颗永无止境的好奇心，建立这个花园，种下一颗颗种子，亲自看护它们一点点成长。
