@@ -64,7 +64,7 @@
 ### 高效采样
 - 2020年10月，DDIM被提出，弃用马尔科夫链，采样速度提升50倍，反向降噪转变为确定性过程，首次拥有一致性
 - 2021年2月，OpenAI提出improved-diffusion，生成速度和质量有了比较大的飞跃。
-- 
+
 
 ### 引导扩散
 - 2021年5月，OpenAI发布[《diffusionmodel beats GANs on image synthesis》](https://arxiv.org/pdf/2105.05233)，提出guided-diffusion，通过增加分类器作为引导，用多样性换取写实性。但是引导函数与扩散模型是分开训练的，无法联合训练。
@@ -122,10 +122,10 @@
 - 7月底正式发布SDXL 1.0, 可以生成1024 * 1024高清图
 
 ### 后续发展
-- stability ai推出谷歌Imagen的复现模型[IF](https://github.com/deep-floyd/IF)，可以解决文字生成、空间位置关系理解等问题
+- stability ai推出谷歌Imagen的复现模型[IF](https://github.com/deep-floyd/IF)，可以解决**文字生成、空间位置关系理解**等问题
 - 2023年5月 stability ai 推出文生动画模型stable animation SDK
 
-### image prompt
+### image prompt （类unclip）
 - [Revision](https://huggingface.co/stabilityai/control-lora):Revision is a novel approach of using images to prompt SDXL.
 - 腾讯[Ip-adapter](https://arxiv.org/pdf/2308.06721)
 ![1 AI/图像生成/Stable diffusion/Pasted image 20250708191854.png](/img/user/1%20AI/%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90/Stable%20diffusion/Pasted%20image%2020250708191854.png)
