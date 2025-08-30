@@ -11,7 +11,7 @@ Git是一款免费开源的分布式版本管理系统，由Linus Torvalds于200
 
 # 仓库架构图
 
-![Pasted image 20250527191042.png](/img/user/6%20%E5%90%8E%E7%AB%AF/Pasted%20image%2020250527191042.png)
+![](https://jancis-1361410855.cos.ap-beijing.myqcloud.com/ObsidianImage/20250827181736285.png)
 ## 名词解释
 
 Workspace: 工作区
@@ -23,9 +23,9 @@ Remote:  远程仓库
 
 git push时出现以下窗口，证明走了HTTP的PAT认证方式。
 
-![6 后端/Pasted image 20250819002044.png](/img/user/6%20%E5%90%8E%E7%AB%AF/Pasted%20image%2020250819002044.png)
+![](https://jancis-1361410855.cos.ap-beijing.myqcloud.com/ObsidianImage/20250827181501879.png)
 
-![6 后端/Pasted image 20250819002118.png](/img/user/6%20%E5%90%8E%E7%AB%AF/Pasted%20image%2020250819002118.png)
+![](https://jancis-1361410855.cos.ap-beijing.myqcloud.com/ObsidianImage/20250827180910921.png)
 
 > [!tip]
 > 如果仓库的格式是 https://github.com/.. ，则通过HTTP的Personal Access Token进行鉴权，如果是 git@github.com:你的用户名/仓库名.git 格式的，则通过ssh鉴权。切记！
