@@ -21,6 +21,14 @@ Remote:  远程仓库
 
 # git的鉴权方式
 
+## ssh 与 https鉴权方式
+> [!info]
+> 
+
+> [! Info]
+> 有时候防火墙会限制ssh 22 端口，可以通过使用https的端口使用ssh，[配置文档](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)
+
+
 git push时出现以下窗口，证明走了HTTP的PAT认证方式。
 
 ![](https://jancis-1361410855.cos.ap-beijing.myqcloud.com/ObsidianImage/20250827181501879.png)
@@ -106,7 +114,11 @@ github配置详见：[[6 后端/github#鉴权机制\|github#鉴权机制]]
 
 # 主要命令
 
-## 
+https://git-scm.com/docs
+
+
+
+
 
 
 https://jason-effi-lab.notion.site/Obsidian-20698ac9981180229066ff67342e8232?p=24198ac998118031ab4df603ea094964&pm=c
